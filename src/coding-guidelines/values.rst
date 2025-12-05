@@ -14,7 +14,7 @@ Values
    :fls: fls_6lg0oaaopc26
    :decidability: undecidable
    :scope: system
-   :tags: undefined-behavior, unsafe
+   :tags: undefined-behavior, safety, security
 
    A program shall not create a value of any type from uninitialized memory,
    except when accessing a field of a union type,
@@ -168,7 +168,7 @@ Values
          let b = unsafe { u.b };      // UB — invalid bool
 
    .. compliant_example::
-      :id: compl_ex_Ke869nSXuShT
+      :id: compl_ex_5Rs1t5gYgZLr
       :status: draft
 
       Accessing padding bytes is allowed if not interpreted as typed data:
