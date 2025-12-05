@@ -168,7 +168,7 @@ Values
          let b = unsafe { u.b };      // UB — invalid bool
 
    .. compliant_example::
-      :id: compl_ex_Ke869nSXuShT
+      :id: compl_ex_5Rs1t5gYgZLr
       :status: draft
 
       Accessing padding bytes is allowed if not interpreted as typed data:
