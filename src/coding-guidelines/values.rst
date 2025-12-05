@@ -14,7 +14,7 @@ Values
    :fls: fls_6lg0oaaopc26
    :decidability: undecidable
    :scope: system
-   :tags: undefined-behavior, unsafe
+   :tags: undefined-behavior, safety, security
 
    A program shall not create a value of any type from uninitialized memory,
    except when accessing a field of a union type,
